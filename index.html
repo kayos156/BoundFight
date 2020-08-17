@@ -73,10 +73,25 @@
     text-decoration: none;
    }
 }
+.ut-link {
+  font-family: dt-font;
+  text-decoration: none;
+  color: #ffffff;
+}
+.ut-link:active {
+  font-family: dt-font; 
+  color: #ffff00;
+}
+.ut-link:hover {
+  font-family: dt-font;
+  color: #ffff00;
+  text-decoration: none;
+  user-select: none;
+}
 </style>
 <body style="background-color:black;" data-gr-c-s-loaded="true">
-<p onclick="window.location.href = 'https://kckarnige.github.io/BoundFight/credits';" style="text-align: left; padding-left: 15px;"><span style="color: #FFFFFF;">Credits</span></p>
-<p onclick="openFullscreen();" style="text-align: left; padding-left: 15px;"><span style="color: #FFFFFF;">Open in Fullscreen Mode</span></p>
+<p href='https://kckarnige.github.io/BoundFight/credits';" style="text-align: left; padding-left: 15px;" class="ut-link">Credits</p>
+<p href="javascript:openFullscreen();" style="text-align: left; padding-left: 15px;" class="ut-link">Open in Fullscreen Mode</p>
 	<div id="fb-root"></div>
 	<script async="" src="https://www.google-analytics.com/analytics.js"></script>
 	<script>
