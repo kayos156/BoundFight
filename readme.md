@@ -1,6 +1,6 @@
 **On days like this massacists like us should just...**
 
-![B U R N  I N  H E L L](https://github.com/kckarnige/kckarnige.github.io/blob/master/res/bound_threat.png?raw=true)
+![B U R N  I N  H E L L](https://kckarnige.github.io/res/bound_threat.png)
 
 **Have fun, and have a hell of a day.**
 
