@@ -12062,7 +12062,7 @@
                                     [0, [0, 2]]
                                 ]],
                                 [44, 24, null, 6017732506802038, false, [
-                                    [7, [2, "Select your hell"]]
+                                    [7, [2, "Select your encounter"]]
                                 ]],
                                 [44, 233, null, 6681899051898119, false, [
                                     [3, 1]
