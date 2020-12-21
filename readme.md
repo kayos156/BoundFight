@@ -17,3 +17,5 @@ Sprites and dialog: [KayoticCarnige](https://www.github.com/kckarnige)
 Attacks: [gotoAndDie](https://github.com/gotoAndDie), [estebanfer](https://www.reddit.com/user/estebanfer), and [Mush 2 Blue](https://www.youtube.com/channel/UCMHwpcP2P4AbV1tDgz5N5XA),
 
 Engine/Bad Time Simulator: [Jcw87](https://www.github.com/jcw87)
+
+**RIP Construct 2, F**
