@@ -66,6 +66,7 @@
 3,SansHead,Default,,,,,,,
 0,SansTorso,Default,,,,,,,
 0,SansText,Oh| you're still alive.,,,,,,,
-0,SansHead,NoEyes,,,,,,,
+0,SansHead,Wink,,,,,,,
+0,SansTorso,Shrug,,,,,,,
 0,SansText,Guess ya don't give up       that easily| do ya?,,,,,,,
 0.05,EndAttack,,,,,,,,
