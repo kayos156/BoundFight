@@ -222,7 +222,10 @@ function openFullscreen() {
 		ga('create', 'UA-78361109-1', 'auto');
 		ga('send', 'pageview');
 	</script>
-<p style="text-align: center;"><span style="color: #FFFFFF; font-size: 90%;">©2017-2020 KayoticCarnige</span></p>
-<p style="text-align: center" ;=""><span style="color: #FFFFFF; font-size: 90%;" ;="">Undertale ©2015-2020 Toby Fox</span></p>
+<p style="text-align: center;"><span style="color: #FFFFFF; font-size: 90%;">©2017-<span id="copyright-year">2020</span> KayoticCarnige</span></p>
+<p style="text-align: center" ;=""><span style="color: #FFFFFF; font-size: 90%;" ;="">Undertale ©2015-<span id="copyright-year">2020</span> Toby Fox</span></p>
+<script>
+    document.querySelector('#copyright-year').innerText = new Date().getFullYear();
+</script>
 </body>
 </html>
