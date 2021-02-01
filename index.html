@@ -53,10 +53,13 @@
 			touch-action: none;
 			-ms-touch-action: none;
 		}
-		canvas {
+		#c2canvas {
 			touch-action-delay: none;
 			touch-action: none;
 			-ms-touch-action: none;
+			border-style: solid;
+			border-width: 2px;
+			border-color:white;
 		}
     </style>
 <style type="text/css">
@@ -97,7 +100,6 @@ html, body {
 <body data-gr-c-s-loaded="true">
 <a href='https://kckarnige.github.io/hoat/credits';" style="text-align: left; padding-left: 15px;" class="ut-link">Credits</a>
 															
-<a href="javascript:openFullscreen();" style="text-align: left; padding-left: 15px;" class="ut-link">Open in Fullscreen Mode</a>
 	<div id="fb-root"></div>
 	<script async="" src="https://www.google-analytics.com/analytics.js"></script>
 	<script>
@@ -132,7 +134,7 @@ var elem = document.getElementById("c2canvas");
 
 /* When the openFullscreen() function is executed, the game will open in fullscreen.
 Note that we must include prefixes for different browsers, as they don't support the requestFullscreen method yet */
-function openFullscreen() {
+function fullscreen() {
   if (elem.requestFullscreen) {
     elem.requestFullscreen();
   } else if (elem.mozRequestFullScreen) { /* Firefox */
