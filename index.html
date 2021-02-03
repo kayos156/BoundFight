@@ -64,7 +64,7 @@
             border-style: solid;
             border-width: 2px;
             border-color: white;
-            transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);	
         }
 
     </style>
@@ -90,6 +90,19 @@
   color: #ffff00;
   text-decoration: none;
   user-select: none;
+}
+#c2canvas:-webkit-full-screen {
+  border-style: none;
+}
+
+/* IE11 syntax */
+#c2canvas:-ms-fullscreen {
+  border-style: none;
+}
+
+/* Standard syntax */
+#c2canvas:fullscreen {
+  border-style: none;
 }
 </style>
 <body data-gr-c-s-loaded="true">
@@ -234,17 +247,6 @@ function fullscreen() {
 			$(document).bind('keydown',function(e){
 			   if(e.keyCode == 115) {
 				   fullscreen();
-				   $('#c2canvas').css("border-style", "none");
-			   }
-			});
-		});
-	</script>
-	<script>
-		$(document).ready(function() {
-			var mydiv = $('.mydiv');
-			$(document).bind('keydown',function(e){
-			   if(e.keyCode == 27) {
-				  $('#c2canvas').css("border-style", "solid");
 			   }
 			});
 		});
